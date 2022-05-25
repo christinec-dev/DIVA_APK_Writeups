@@ -9,13 +9,16 @@ First things first, I need to make sure that we are on the same page. What is An
 - JDX-GUI is installed and open.
 
 Okay, let's get hacking! When we open the DIVA application on our device, we can see that it consists of a menu that lists many parts for us to Pentest. 
+
 ![Diva Interface](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/00pka1yeuzi564jct4y1.png)
+
 In this section, we will be testing the Insecure Logging section of this application. 
 
 ## Insecure Logging
 When we open the Insecure Logging section we are met with the following objective: find out what is being logged where/how and the vulnerable code. So, we are expected to find what is being logged, how it is logged, and the vulnerable code.
 
 ![Insecure Logging](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/589ypsx72k2o0pz4e6f7.png)
+
 Let's try and answer these objectives one by one. From first impressions, by looking at the activity layout, we can see that it asks us for our credit card numbers. Thus, our credit card number is being logged (what). Let's test this by entering a number!
 
 ![Insecure Logging](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/sip5hhr5gmfvtraajz2k.png)
