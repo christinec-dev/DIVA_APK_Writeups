@@ -1,18 +1,18 @@
-# DIVA_APK_Writeups
-This repository contains Android Pentesting writeups of the DIVA APK for Parrot OS. 
+# DIVA APK Full Android Writeup for Parrot OS
+Hey there! Welcome to my repo. This repository contains Android Pentesting writeups of the DIVA APK for Parrot OS. If you are unsure of what the DIVA APK is, please visit the owners GitHub repository first: [diva-apk-file](https://github.com/0xArab/diva-apk-file). 😁 
 
-**This repository consists of the following sections:**
-- Insecure Logging
-- Hardcoding Issues Part 1 
-- Hardcoding Issues Part 2
-- Insecure Data Storage Part 1
-- Insecure Data Storage Part 2
-- Insecure Data Storage Part 3
-- Insecure Data Storage Part 4
-- Input Validation Issues Part 1
-- Input Validation Issues Part 2
-- Access Control Issues Part 1
-- Access Control Issues Part 2
-
-![Screenshot at 2022-05-25 13-26-31](https://user-images.githubusercontent.com/87696858/170332107-dd8d02a0-aaa3-4661-a18b-e787b1c1b1e2.png)
+## Section Navigation
+- [Insecure Logging](https://github.com/christinec-dev/DIVA_APK_Writeups/tree/main/Insecure%20Logging)
+- [Hardcoding Issues Part 1 ](https://github.com/christinec-dev/DIVA_APK_Writeups/tree/main/Harcoding%20Issues)
+- [Hardcoding Issues Part 2](https://github.com/christinec-dev/DIVA_APK_Writeups/tree/main/Harcoding%20Issues)
+- [Insecure Data Storage Part 1](https://github.com/christinec-dev/DIVA_APK_Writeups/tree/main/Insecure%20Data%20Storage/Part%20One)
+- [Insecure Data Storage Part 2](https://github.com/christinec-dev/DIVA_APK_Writeups/tree/main/Insecure%20Data%20Storage/Part%20Two)
+- [Insecure Data Storage Part 3](https://github.com/christinec-dev/DIVA_APK_Writeups/tree/main/Insecure%20Data%20Storage/Part%20Three)
+- [Insecure Data Storage Part 4](https://github.com/christinec-dev/DIVA_APK_Writeups/tree/main/Insecure%20Data%20Storage/Part%20Four)
+- [Input Validation Issues Part 1]()
+- [Input Validation Issues Part 2]()
+- [Input Validation Issues Part 3]()
+- [Access Control Issues Part 1]()
+- [Access Control Issues Part 2]()
+- [Access Control Issues Part 3]()
 
