@@ -6,23 +6,7 @@ Without any further lollygagging, let's jump into it!
 
 ![Image description](https://media.giphy.com/media/0DYipdNqJ5n4GYATKL/giphy.gif)
 
-##<u> Insecure Data Storage - Part 1</u>
-When we open the Insecure Data Storage - Part 1 section we are met with the following objective: find out where/how the credentials are being stored and the vulnerable code. So, we are expected to find where the credentials are being stored, how it is stored, and the vulnerable code.
-
-![Image description](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/ngz7juqa5m4lmzmnyt16.png)
-
-Let's first start with inserting information into the form. We get a popup saying that our credentials has been saved,and that's about it. Not much to it, so let's see if we can find where it saved our credentials.
-
-![Image description](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/w4d4h533odjs7bv527z9.png)
-
-Let's go ahead and pen up JDX-GUI and navigate over to the **InsecureDataStorage1Activity**. From here we can see that our data is being stored in a [SharedPreferences](https://developer.android.com/reference/android/content/SharedPreferences) object. A SharedPreferences object points to a file that contains key-value pairs and provides simple methods to read and write them. Each SharedPreferences file is managed by the framework and can be private or shared. A simple example of using a SharedPreference object is saving the user's preferred background color for the application.
-
-![Image description](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/zeesmtqdmtmzzmaunwhr.png) 
-![Image description](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/vwz46v2ya6c6jz819r32.png)
-
-Usually, the SharedPreference file will be saved under **../data/data/name.company.com/shared_prefs/..** and to access or view this SharedPreference file I will show you two methods: how to access it in Android Studio, and how to access it via the terminal.
-
-##<u> Insecure Data Storage - Part 2</u>
+## Insecure Data Storage - Part 2
 When we open the Insecure Data Storage - Part 2 section we are met with the following objective: find out where/how the credentials are being stored and the vulnerable code. So, we are expected to find where the credentials are being stored, how it is stored, and the vulnerable code.
 
 ![Image description](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/tyncprj3sbz3u8m6thtc.png)
