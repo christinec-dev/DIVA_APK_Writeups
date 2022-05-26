@@ -29,6 +29,7 @@ Open up Android Studio and select the Device Manager bar on the right-side of yo
 ![Image description](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/llihopuprd3xwis8oqlu.png)  
   
 Double click your **uinfotmp** file. You can now read the data!
+
 ![Image description](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/5d8fyeffmeapvey849y6.png)
 
 ### Method Two: Terminal
@@ -52,7 +53,6 @@ When we list the files we can see our uinfotmp file. To read the contents of the
 
 Congrats, we have finished the third part of Insecure Data Storage of the DIVA APK! I hope this was easy enough to follow/understand. If you have recommendations on any cool tools, techniques, or tutorials that I too can follow feel free to leave them below and I'll check it out!
 
-(Pull this on my GitHub for future reference)
 
   
 
