@@ -6,7 +6,7 @@ Without any further lollygagging, let's jump into it!
 
 ![Image description](https://media.giphy.com/media/0DYipdNqJ5n4GYATKL/giphy.gif)
 
-##<u> Insecure Data Storage - Part 4</u>
+## Insecure Data Storage - Part 4
 When we open the Insecure Data Storage - Part 4 section we are met with the following objective: find out where/how the credentials are being stored and the vulnerable code. So, we are expected to find where the credentials are being stored, how it is stored, and the vulnerable code.
 
 ![Image description](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/8h8f06ufjmfy9fzjwjph.png)
@@ -32,6 +32,7 @@ Open up Android Studio and select the Device Manager bar on the right-side of yo
 ![Image description](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/0l86fx6s53tiuu45xij2.png)
   
 Double click your .**uinfo.txt** file. You can now read the data!
+
 ![Image description](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/hpc5i4bzowu8wqnr0ddb.png)
  
 ### Method Two: Terminal
@@ -40,6 +41,7 @@ Open up your terminal via CTRL + ALT + T and start a adb shell via the **adb she
 su
 cd sdcard
 ```
+
 ![Image description](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/m5rhezug0vdlqruhpdhc.png)
  
 When we list the files we can see our .uinfo.txt file. To read the contents of the .uinfo.txt file, we can simply say **cat .uinfo.txt**. Now we know all it's dirty little secrets!
@@ -52,7 +54,6 @@ When we list the files we can see our .uinfo.txt file. To read the contents of t
 
 Congrats, we have finished the fourth part of Insecure Data Storage of the DIVA APK! I hope this was easy enough to follow/understand. If you have recommendations on any cool tools, techniques, or tutorials that I too can follow feel free to leave them below and I'll check it out!
 
-(Pull this on my GitHub for future reference)
 
   
 
