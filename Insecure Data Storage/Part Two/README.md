@@ -1,4 +1,4 @@
-If you've read my previous [writeup](https://dev.to/christinecdev/android-pentesting-writeup-for-the-diva-insecure-logging-and-hardcoding-issues-for-parrot-os-1mo1) where I covered Logging and Hardcoding Issues (1 & 2) on the DIVA APK, then get ready for the next one. I hope you have your tools open, because today we are going to find all the Insecure Data Storage vulnerabilities in the DIVA APK!😁
+If you've read my previous [writeup](https://dev.to/christinecdev/android-pentesting-writeup-for-the-diva-insecure-logging-and-hardcoding-issues-for-parrot-os-1mo1) where I covered Logging and Hardcoding Issues (1 & 2) on the DIVA APK, then get ready for the next one. I hope you have your tools open, because today we are going to find all the Insecure Data Storage vulnerabilities in the DIVA APK! 😁
 
 So the DIVA APK has four sections to test for Insecure Data Storage. [Insecure Data Storage](https://owasp.org/www-project-mobile-top-10/2016-risks/m2-insecure-data-storage) vulnerabilities occur when programmers assume that users, malware, or attackers will not have access to a mobile device’s filesystems and sensitive information that is stored on the device or APK. The problem arises when filesystems are easily accessible. Attackers, or us in this case, can root or jailbreak mobile devices or APK's and view application data - ultimately, sensitive application data.
 
@@ -65,8 +65,6 @@ To read the contents of the myuser table, we can simply say **.dump myuser**, an
 - **How**: SQLiteDatabase mDB
    
 Congrats, we have finished the second part of Insecure Data Storage of the DIVA APK! I hope this was easy enough to follow/understand. If you have recommendations on any cool tools, techniques, or tutorials that I too can follow feel free to leave them below and I'll check it out!
-
-(Pull this on my GitHub for future reference)
 
   
 
