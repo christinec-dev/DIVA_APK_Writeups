@@ -6,7 +6,8 @@ Without any further lollygagging, let's jump into it!
 
 ![Image description](https://media.giphy.com/media/0DYipdNqJ5n4GYATKL/giphy.gif)
 
-##<u> Insecure Data Storage - Part 1</u>
+## Insecure Data Storage - Part 1
+
 When we open the Insecure Data Storage - Part 1 section we are met with the following objective: find out where/how the credentials are being stored and the vulnerable code. So, we are expected to find where the credentials are being stored, how it is stored, and the vulnerable code.
 
 ![Image description](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/ngz7juqa5m4lmzmnyt16.png)
