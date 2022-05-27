@@ -16,7 +16,7 @@ Let's first start with inserting information into the form. We get a popup sayin
 
 ![Image description](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/rtoh9oazeavhnwv62ggb.png)
  
-Open up JDX-GUI and navigate over to the **InsecureDataStorage2Activity**. From here we can see that our data is being stored in a [SQLiteDatabase](https://developer.android.com/reference/android/database/sqlite/SQLiteDatabase) object - so we will be looking for a database file!
+Open up JADX-GUI and navigate over to the **InsecureDataStorage2Activity**. From here we can see that our data is being stored in a [SQLiteDatabase](https://developer.android.com/reference/android/database/sqlite/SQLiteDatabase) object - so we will be looking for a database file!
 
 ![Image description](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/2hy44l7fjthmdbd7v52h.png)
 ![Image description](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/6lzhnfmlkm9f4uk6mmys.png)
