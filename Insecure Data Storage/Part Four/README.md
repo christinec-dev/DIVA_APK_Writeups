@@ -16,7 +16,7 @@ Let's first start with inserting information into the form. We get a popup sayin
 
 ![Image description](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/eri6pxldfvbg87xtlwdt.png)
  
-Open up JDX-GUI and navigate over to the **InsecureDataStorage4Activity**. 
+Open up JADX-GUI and navigate over to the **InsecureDataStorage4Activity**. 
 
 ![Image description](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/315najz6o96dwiwtfjad.png)
 
