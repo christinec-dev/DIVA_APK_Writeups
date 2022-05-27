@@ -63,6 +63,13 @@ We can see upon further inspection that the static function loads the native lib
 
 Mmh, so we are looking for a library containing "divajni.so" in our lib folder within our APK file. Go to where you installed your DIVA APK and extract the file (to do this easily, just replace .apk with .zip and extract like normal). Once extracted, open it up and go **lib > any one of the folders > libdivajni.so**.
 
+---
+**IMPORTANT NOTE:** You can also access this library file via the terminal without having to extract the file and navigate to it like this:
+
+![Image description](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/8k118x30vwe39iqzffki.png)
+
+---
+
 ![Hardcoded part 2](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/gxdq17lj7fa0t5jrg4j1.png)
 
 You can copy this library file to your Desktop or anywhere with easy access. Open up your terminal using CTRL + ALT + T and **cd** into Destkop. Make sure your libdivajni.so file is there by entering the **ls** command. 
