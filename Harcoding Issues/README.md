@@ -1,5 +1,5 @@
 # Harcoding Issues
-If you've read my previous tutorials(or write-ups), you would know that I have started dabbling in the world of hacking, with my most recent write-ups focusing primarily on Android Pentesting. I've shown you how to install [Genymotion & Virtualbox](https://dev.to/christinecdev/how-to-install-genymotion-virtualbox-on-parrot-os-287p), [JDX-GUI & ADB](https://dev.to/christinecdev/android-how-to-install-adb-apks-and-jdx-gui-on-parrot-os-3m9c), and [Android Studio](https://tutorialforlinux.com/2021/04/05/step-by-step-android-studio-parrot-linux-installation/) on Parrot OS - but today we will go beyond just installing tools. Today we start hacking, _kind of_.
+If you've read my previous tutorials(or write-ups), you would know that I have started dabbling in the world of hacking, with my most recent write-ups focusing primarily on Android Pentesting. I've shown you how to install [Genymotion & Virtualbox](https://dev.to/christinecdev/how-to-install-genymotion-virtualbox-on-parrot-os-287p), [JADX-GUI & ADB](https://dev.to/christinecdev/android-how-to-install-adb-apks-and-jdx-gui-on-parrot-os-3m9c), and [Android Studio](https://tutorialforlinux.com/2021/04/05/step-by-step-android-studio-parrot-linux-installation/) on Parrot OS - but today we will go beyond just installing tools. Today we start hacking, _kind of_.
 
 First things first, I need to make sure that we are on the same page. What is [Android Pentesting](https://www.getastra.com/blog/security-audit/android-penetration-testing/)? Simply put, it is a simulated cyber attack against a mobile application where we try to expose and find any vulnerabilities or security issues that are present in the application. In the following days to come, we will be Pentesting the [DIVA APK](https://www.payatu.com/wp-content/uploads/2016/01/diva-beta.tar.gz), which I explain and demonstrate how to install and set up on an emulated device in this [tutorial](https://dev.to/christinecdev/android-how-to-install-adb-apks-and-jdx-gui-on-parrot-os-3m9c).
 
@@ -7,7 +7,7 @@ First things first, I need to make sure that we are on the same page. What is [A
 - Android Studio Installed.
 - Genymotion and Virtualbox installed, with an emulated device setup and running.
 - ADB is installed with DIVA APK installed onto the device. 
-- JDX-GUI is installed and open.
+- JADX-GUI is installed and open.
 
 Okay, let's get hacking! When we open the DIVA application on our device, we can see that it consists of a menu or navigation that lists many sections for us to Pentest. 
 
@@ -26,7 +26,7 @@ When we open the Hardcoding Issues Part One section we are met with the followin
 
 ![Hardcoded part 1](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/z4gjjju2b3y9w4weiukh.png)
 
-On to the where. Let's head into JDX-GUI and open up the **HardcodeActivity** activity to see if we can find anything in the source code.
+On to the where. Let's head into JADX-GUI and open up the **HardcodeActivity** activity to see if we can find anything in the source code.
 
 ![Hardcoded part 1](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/k6knfvvvh3a5xflvfuak.png)
 
@@ -47,7 +47,7 @@ When we open the Hardcoding Issues Part Two section we are met with the followin
 
 ![Hardcoded part 2](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/7z1lk1pzpar9avffmbdl.png)
  
-Now on to the where. Let's head into our **Hardcode2Activity** in JDX-GUI and open it up. We can immediately identify the **DivaJni** class that is being referenced, as the rest of the code depends on this class to be able to validate the access key. 
+Now on to the where. Let's head into our **Hardcode2Activity** in JADX-GUI and open it up. We can immediately identify the **DivaJni** class that is being referenced, as the rest of the code depends on this class to be able to validate the access key. 
 
 ![Hardcoded part 2](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/tmg72jsu7gh70iwopxty.png)
 
