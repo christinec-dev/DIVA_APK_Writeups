@@ -1,10 +1,11 @@
+# Input Validation Issues - Part One
+
 With another day gone, it is time for another Android Pen-test write-up. Today we are going to cover the fourth section of the DIVA APK, [Input Validation Issues](https://cwe.mitre.org/data/definitions/20.html). When we have an application that does not validate input properly, it makes it easier for an attacker to go ahead and creating input that is not expected by the rest of the application. This has dire consequences, ranging from altered data, arbitrary code execution, or unauthorized data access. Not good!
 
 When you're ready, put on your favorite hoodie and grab your nearest drink, and let's get HACKING! 👾
 
 ![Image description](https://media.giphy.com/media/damUMYvgrroqw2hxSu/giphy.gif)
 
-## Input Validation Issues - Part One
 When we open the Input Validation Issues - Part 1 section on our device we are met with the following objective: try to access all user data without knowing any username. There are three users by default and your task is to output data of all three users with a single malicious search.
 
 Let's take note of the key to this objective: **malicious search**. We also see a little hint, which tells us that there are three users in the database, where one is an admin.
