@@ -16,7 +16,7 @@ Let's first start with inserting information into the form. We get a popup sayin
 
 ![Image description](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/otxqqiiqud04fhpve5v8.png)
  
-Open up JDX-GUI and navigate over to the **InsecureDataStorage3Activity**. From here we can see that our data is being stored in a [FileWriter](https://developer.android.com/reference/java/io/FileWriter) object that is being stored as **uinfotmp** - so we are looking for a file with a (tmp) ending.
+Open up JADX-GUI and navigate over to the **InsecureDataStorage3Activity**. From here we can see that our data is being stored in a [FileWriter](https://developer.android.com/reference/java/io/FileWriter) object that is being stored as **uinfotmp** - so we are looking for a file with a (tmp) ending.
 
 ![Image description](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/ohkssj9b606x5xxd4e98.png)
 ![Image description](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/uk3svkscotl72iv4uzv8.png)
