@@ -1,10 +1,11 @@
+# Input Validation Issues - Part Two
+
 With another day gone, it is time for another Android Pen-test write-up. Today we are going to cover the fourth section of the DIVA APK, [Input Validation Issues](https://cwe.mitre.org/data/definitions/20.html). When we have an application that does not validate input properly, it makes it easier for an attacker to go ahead and creating input that is not expected by the rest of the application. This has dire consequences, ranging from altered data, arbitrary code execution, or unauthorized data access. Not good!
 
 When you're ready, put on your favorite hoodie and grab your nearest drink, and let's get HACKING! 👾
 
 ![Image description](https://media.giphy.com/media/damUMYvgrroqw2hxSu/giphy.gif)
 
-## Input Validation Issues - Part Two
 When we open the Input Validation Issues - Part 2 section on our device we are met with the following objective: try accessing any sensitive information apart from a web URL.
 
 Let's take note of the important part in this objective, which is to **NOT** access information from a web URL - so don't go trying to hack Google or your favorite site! We need to access local data. 😂 
