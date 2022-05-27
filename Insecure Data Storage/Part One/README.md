@@ -17,7 +17,7 @@ Let's first start with inserting information into the form. We get a popup sayin
 
 ![Image description](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/w4d4h533odjs7bv527z9.png)
 
-Let's go ahead and pen up JDX-GUI and navigate over to the **InsecureDataStorage1Activity**. From here we can see that our data is being stored in a [SharedPreferences](https://developer.android.com/reference/android/content/SharedPreferences) object. A SharedPreferences object points to a file that contains key-value pairs and provides simple methods to read and write them. Each SharedPreferences file is managed by the framework and can be private or shared. A simple example of using a SharedPreference object is saving the user's preferred background color for the application.
+Let's go ahead and pen up JADX-GUI and navigate over to the **InsecureDataStorage1Activity**. From here we can see that our data is being stored in a [SharedPreferences](https://developer.android.com/reference/android/content/SharedPreferences) object. A SharedPreferences object points to a file that contains key-value pairs and provides simple methods to read and write them. Each SharedPreferences file is managed by the framework and can be private or shared. A simple example of using a SharedPreference object is saving the user's preferred background color for the application.
 
 ![Image description](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/zeesmtqdmtmzzmaunwhr.png) 
 ![Image description](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/vwz46v2ya6c6jz819r32.png)
