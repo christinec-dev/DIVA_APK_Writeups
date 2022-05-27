@@ -11,7 +11,7 @@ Hey there! Welcome to my repo. This repository contains Android Pentesting write
 - [Insecure Data Storage Part 4](https://github.com/christinec-dev/DIVA_APK_Writeups/tree/main/Insecure%20Data%20Storage/Part%20Four)
 - [Input Validation Issues Part 1](https://github.com/christinec-dev/DIVA_APK_Writeups/tree/main/Input%20Validation%20Issues/Part%201)
 - [Input Validation Issues Part 2](https://github.com/christinec-dev/DIVA_APK_Writeups/tree/main/Input%20Validation%20Issues/Part%202)
-- [Input Validation Issues Part 3]()
+- [Input Validation Issues Part 3](https://github.com/christinec-dev/DIVA_APK_Writeups/tree/main/Input%20Validation%20Issues/Part%203)
 - [Access Control Issues Part 1]()
 - [Access Control Issues Part 2]()
 - [Access Control Issues Part 3]()
