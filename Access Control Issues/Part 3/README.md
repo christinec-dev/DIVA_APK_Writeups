@@ -1,3 +1,4 @@
+# Part Three
 If you've seen any of my previous [write-ups](https://github.com/christinec-dev/DIVA_APK_Writeups) on the DIVA APK's, you would know that today we are going to cover the last and final section: Access Control Issues. Access Control Issues arise when we, as normal users, can gain access to data that we are not suppose to access either directly or via malicious methods. This is mostly due to poor data/access protection mechanisms put in place by developers. 🤠
 
 Now, with this section there are three parts. Without any further lollygagging, let's jump into it!
